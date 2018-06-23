@@ -1,6 +1,7 @@
 ### « tranquille, on s’en fout, je prends un truc au hasard »
-<img src="https://user-images.githubusercontent.com/25649502/41812834-0d7fdd68-772b-11e8-9707-b67a8d747660.jpg" alt="alt text" width="300" height="200">
+     
 
+<img src="https://user-images.githubusercontent.com/25649502/41812834-0d7fdd68-772b-11e8-9707-b67a8d747660.jpg" alt="alt text" width="300" height="200">
 
 Oui choisir le bon support c’est important.
 
@@ -13,6 +14,7 @@ Oui choisir le bon support c’est important.
 
 - Raft = Plusieurs passage en dessous des fichiers + zone définie.
 <img src="https://user-images.githubusercontent.com/25649502/41813123-1d42e326-7730-11e8-8567-1d97dd0dc908.jpg" alt="alt text" width="600" height="400">
+
 
 
 ### Fail
