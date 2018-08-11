@@ -1,16 +1,16 @@
-# Impression-3D
 Mon aventure dans le monde de l'impression 3D.
-C’est un grand pas franchi parce que la 3D, ça fait peur et ça me semble être un des skills technologiques les plus dur à maitriser....     
+C’est un grand pas franchi parce que la 3D, ça fait peur et ça me semble être un des skills technologiques les plus dur à maitriser....         
+      
 ![images 1](https://user-images.githubusercontent.com/25649502/41813548-64884fc0-7738-11e8-993a-8bcc2eeb6cc0.jpg)
 
-Pourquoi j’en ai besoin ?
+### Pourquoi j’en ai besoin ?
 -	Pour mes futures œuvres « oribotiques » (engrenage et système de mouvement)
 -	Pour compléter mes compétences nécessaires à l’enseignement des nouvelles technologies (pour le projet Fablab Mobile notamment)
 -	Pour exécuter des jobs pour OpenFab
 -	Pour des réparations
 -	 Pour des goodies
 
-Par quoi commencer ?
+### Par quoi commencer ?
 Faut savoir qu’il y a 2 parties dans l’impression 3D :
 1)	La partie logicielle de conception 3D (CAO conception assistée par ordinateur)
 2)	La partie machine d’impression 3D
@@ -24,14 +24,14 @@ La création d’un scanner 3D est aussi une option alléchante.
 
 2)	La partie machine    
 Tout commence par une mise en application sur le tas, dans le cadre d’une animation que je donne avec le projet Fablab Mobile. Le cadre est confortable : les machines sont prêtent, les fichiers aussi et il y a des makers compétents avec moi  Journée 1 : démo et explication d’impression 3D sur une Fabrikator II, journée 2 : explication sur logiciel de conception 3D facile (SculptGL) et lancement de fichiers à imprimer à partir de banques de fichiers trouvés sur le net.
-<img src="https://user-images.githubusercontent.com/25649502/43995609-7317e556-9db1-11e8-9e57-49f95c2a4528.jpg" alt="alt text" width="300" height="400">
+<img src="https://user-images.githubusercontent.com/25649502/43995609-7317e556-9db1-11e8-9e57-49f95c2a4528.jpg" alt="alt text" width="200" height="300">
 
 
 Je lance quelques impressions déjà enregistrées, facile, faut juste ouvrir le logiciel « CURA » qui fait l’interface entre le logiciel de conception 3D et la machine. CURA permet de générer du « gcode » (le langage que lit la machine) et de définir les paramètres d’impressions.
 
 <img src="https://user-images.githubusercontent.com/25649502/43995852-365b0a20-9db7-11e8-81ae-9b8b9ffb62de.png" alt="alt text" width="300" height="200">
 
-Je retrouve au niveau du logiciel CURA, entre autres : 
+#### Je retrouve au niveau du logiciel CURA, entre autres : 
 -	la température de l’extrudeur (la tête qui fond et envoi le plastique)
 -	la température du lit (qui reçois le plastique et le durcit doucement)
 -	La vitesse d’impression
@@ -43,12 +43,14 @@ Une fois qu'on sais gérer les quelques paramètres important, il faut juste :
 -	du filament de plastique (ici du PLA, dérivé du maïs qui doit être biseauté pour mieux s’enfiler)
 -	du scotch pour l’adhérence sur le tapis
 
-J’ai un cas de « filament bouché » sur une machine… Aucun souci, faut juste retirer le filament de PLA, le rebiseauter puis le réenfiler et pousser en chauffant l’extrudeur pour entrainer le fil. J’ai pas vraiment eu d’autres problèmes mais des interrogations apparaissent sur les paramètres machine, l’utilité du sotch, la capacité d’impression… Mais ça finit très bien avec une impression de la « Chain Mail » développée par la NASA !    
+#### J’ai un cas de « filament bouché » sur une machine… 
+Aucun souci, faut juste retirer le filament de PLA, le rebiseauter puis le réenfiler et pousser en chauffant l’extrudeur pour entrainer le fil. J’ai pas vraiment eu d’autres problèmes mais des interrogations apparaissent sur les paramètres machine, l’utilité du sotch, la capacité d’impression… Mais ça finit très bien avec une impression de la « Chain Mail » développée par la NASA !    
 <img src="https://user-images.githubusercontent.com/25649502/43995610-73372cae-9db1-11e8-86da-29f5935e70e6.jpg" alt="alt text" width="300" height="400">
 
 2 semaines passent sans que je retouche à l’impression 3D mais me revoilà replongé dans une situation à débrouillardise nécessaire : je dois assurer l’accueil et la gestion des impressions 3D pour OpenFab.
 
-Easy, ça doit être la même chose que sur les Fabrikators du Fablab Mobile, une fois que je sais lancer sur une machine je sais lancer sur toutes !   
+Easy, ça doit être la même chose que sur les Fabrikators du Fablab Mobile.
+#### Une fois que je sais lancer sur une machine je sais lancer sur toutes ?   
 Oui et non      
 Oui, on passe par CURA à OpenFab (puis faut mettre ça sur micro sd dans la machine).      
 Non, c’est pas exactement les mêmes machines, les paramètres CURA encodés sont différents.      
@@ -71,7 +73,8 @@ MAIS :
 Premier constat : vérifier la taille/l’épaisseur/l’utilité du tapis    
 <img src="https://user-images.githubusercontent.com/25649502/43995614-7484e34e-9db1-11e8-898d-35f50418ec38.jpg" alt="alt text" width="300" height="200"> <img src="https://user-images.githubusercontent.com/25649502/43995613-745d4604-9db1-11e8-85e2-53960ad08734.jpg" alt="alt text" width="300" height="200">
 
---> J'ai créé un TUTO Choix du tapis pour ça (avec surtout ce qu'il faut pas faire^^) :       
+--> J'ai créé un tuto pour ça (avec surtout ce qu'il faut pas faire^^) : 
+### TUTO Choix du tapis
 https://github.com/DewiBrunet/Impression-3D/blob/master/Importance%20du%20tapis.md
 
 
@@ -90,7 +93,7 @@ Et une chose étrange se passe : le filament ressort sur un côté de la machine
 
 On m’expliquera plus tard que c’est sans doute le filament qui est coupé au mauvais endroit, où ça ne chauffe pas. La seule solution serait d’ouvrir la tête de l’extrudeur.
 
-TUTO Déboucher une buse : https://github.com/DewiBrunet/Impression-3D/blob/master/D%C3%A9boucher%20buse.md
+### TUTO Déboucher une buse : https://github.com/DewiBrunet/Impression-3D/blob/master/D%C3%A9boucher%20buse.md
 
 Mais bref, une fonctionne et je compte bien continuer à lancer des impressions !
 C’est parti pour la découverte des textiles imprimées en 3D…
