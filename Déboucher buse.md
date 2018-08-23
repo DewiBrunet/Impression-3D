@@ -21,7 +21,7 @@ Si aucune de ses options ne fonctionne, alors il faut démonter la buse et enlev
 - Dévisser la plaque    
 - Dévisser l’extruder (une vis en bas, un cylindre en haut)    
 
-Attention à bien vérifier toutes les vis et où elles se placent (comme avec Ikea, je me suis retrouvé à la fin avec une vis en trop^^). Aussi faire attention à bien replacer les cables au même endroit (il me semble qu'il y a notamment le capteur de température de la buse qui doit se caler dans un petit trou).    
+Attention à bien vérifier toutes les vis et où elles se placent (comme avec Ikea, je me suis retrouvé à la fin avec une vis en trop^^). Aussi faire attention à bien replacer les cables au même endroit (il me semble qu'il y a notamment le capteur de température de la buse qui doit se caler dans un petit trou). Et surtout s'assurer que les vis sont bien serrées!    
 <img src="https://user-images.githubusercontent.com/25649502/43995714-73b7bce6-9db3-11e8-974d-62cbf362868d.jpg" alt="alt text" width="300" height="300"> 
 <img src="https://user-images.githubusercontent.com/25649502/43995727-bb3d5efe-9db3-11e8-961f-eb3fb3e74777.jpg" alt="alt text" width="300" height="300"> 
 
